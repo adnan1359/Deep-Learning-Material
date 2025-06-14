@@ -1,7 +1,7 @@
 
 ## Vanishing Gradient Problem: Explained (Cause-Effect-Reason)
 
-Here's a breakdown of the Vanishing Gradient problem using the cause-effect-reason approach, designed to impress in an interview and demonstrate deep understanding:
+The vanishing gradient problem occurs when gradients shrink exponentially during backpropagation because of repeatedly multiplication by small numbers, which causes early layers in deep networks to learn extremely slowly or not at all.
 
 **1. Cause: Deep Neural Networks & Backpropagation**
 
